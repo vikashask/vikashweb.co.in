@@ -18,10 +18,13 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    '✓	Having 7.5 Years of experience in area of Software developing and Programming in React Js, Redux, Node Js, MongoDb, Angular.',
+  paragraphTwo:
+    '✓	Adept in end-to-end development of software products from requirement analysis to system study, designing, coding, testing, de-bugging, documentation, and implementation',
+  paragraphThree:
+    '✓	Deft at mapping the requirements, custom designing solutions & troubleshooting for complex software & application problems',
+  resume: '/Resume-Vikash_Verma_React.docx', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -59,7 +62,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'vikashraj144@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,22 +71,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/vikashraj144',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/vikash-verma-0581682b/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/vikashask',
     },
   ],
 };
