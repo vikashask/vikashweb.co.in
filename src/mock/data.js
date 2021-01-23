@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Vikash | Profile', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Fullstack developer React,Node,Angular', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    '✓	Having 7.5 Years of experience in area of Software developing and Programming in React Js, Redux, Node Js, MongoDb, Angular.',
+    '✓	Having 8+ Years of experience in area of Software developing and Programming in React Js, Redux, Node Js, MongoDb, Angular.',
   paragraphTwo:
     '✓	Adept in end-to-end development of software products from requirement analysis to system study, designing, coding, testing, de-bugging, documentation, and implementation',
   paragraphThree:
@@ -31,30 +31,58 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project/dop.png',
+    title: 'DOP',
+    info: 'DOP is shopping site, for b2b and b2c',
+    info2: 'React Js, Redux, Material ui, Styled component, HTML, CSS',
+    url: 'http://dop-demo.netlify.app/',
+    repo: '',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project/house-of-pepsico.png',
+    title: 'House Of Pepsico',
+    info: 'React Js, Gatsby, Material ui, HTML, CSS',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.houseofpepsico.com/',
+    repo: '',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'project/quaker.png',
+    title: 'Quaker',
     info: '',
+    info2: 'React,HTML,Css,PHP',
+    url: 'https://quaker.co.in/',
+    repo: '',
+  },
+
+  {
+    id: nanoid(),
+    img: 'project/bubbly.png',
+    title: 'Bubbly',
+    info: 'Bubbly shopping marketing page for camping',
+    info2: 'React Js, Material ui, Styled component, HTML, CSS',
+    url: 'https://dmp-bubly-dev.azurewebsites.net/',
+    repo: '',
+  },
+  {
+    id: nanoid(),
+    img: 'project/app.denefits.png',
+    title: 'Denefits Application',
+    info: 'Angular, Node js',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://app.denefits.com/',
+    repo: '',
+  },
+  {
+    id: nanoid(),
+    img: 'project/denefits.com.png',
+    title: 'Denefits.com',
+    info: '',
+    info2: 'React,HTML,Css,PHP',
+    url: 'denefits.com.',
+    repo: '',
   },
 ];
 
