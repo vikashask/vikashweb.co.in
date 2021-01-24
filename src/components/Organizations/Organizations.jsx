@@ -6,9 +6,6 @@ import Title from '../Title/Title';
 
 const Organizations = () => {
   const { organization } = useContext(PortfolioContext);
-  console.log('🚀 ~ file: Organizations.jsx ~ line 9 ~ Organizations ~ organization', organization);
-  // const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
-
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -25,28 +22,25 @@ const Organizations = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
-        <Row className="about-wrapper">
-          <Col md={6} sm={12}>
-            <Fade bottom duration={1000} delay={600} distance="30px">
-              <div className="about-wrapper__image">
-                {/* <AboutImg alt="profile picture" filename={img} /> */}
-                Image
-              </div>
-            </Fade>
-          </Col>
-          <Col md={6} sm={12}>
-            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-              <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa
-                  animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur
-                  blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.
-                </p>
-              </div>
-            </Fade>
-          </Col>
-        </Row>
+        <Title title="Organizations Scan" />
+        {organization?.map((organizationData) => (
+          <Row className="about-wrapper" key={organizationData.id}>
+            <Col md={6} sm={12}>
+              <Fade bottom duration={1000} delay={600} distance="30px">
+                <div className="about-wrapper__info">
+                  <p className="about-wrapper__info-text-title">{organizationData.name}</p>
+                </div>
+              </Fade>
+            </Col>
+            <Col md={6} sm={12}>
+              <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+                <div className="about-wrapper__info">
+                  <p className="about-wrapper__info-text">{organizationData.duration}</p>
+                </div>
+              </Fade>
+            </Col>
+          </Row>
+        ))}
       </Container>
     </section>
   );

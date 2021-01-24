@@ -116,77 +116,91 @@ export const footerData = {
 
 export const organizationData = [
   {
+    id: 1,
     name: 'Pepsico (Pepsi)',
     duration: 'Nov 2019 to Till now',
     description: '',
   },
   {
+    id: 2,
     name: 'M3bi India Pvt Ltd',
     duration: 'April 2018 to Oct 2019 ',
     description: '',
   },
   {
+    id: 3,
     name: 'Bridging health care',
     duration: 'Nov 2016 to Aug 2017',
     description: '',
   },
   {
+    id: 4,
     name: 'Technotronics',
     duration: 'NoMarch 2016 to OCT 2016v',
     description: '',
   },
   {
+    id: 5,
     name: 'A1-Technology',
     duration: 'Jan 2014 to March 2016',
     description: '',
   },
   {
+    id: 6,
     name: 'Aryaan Solutions',
     duration: 'Jan 2013 to Aug 2013',
     description: '',
   },
 ];
 
-export const skills = [
+export const skillData = [
   {
+    id: nanoid(),
     name: 'React JS',
     version: '16,17',
-    Experience: '',
+    experience: '',
   },
   {
+    id: nanoid(),
     name: 'Angular',
     version: '4,6,8,9',
-    Experience: '',
+    experience: '',
   },
   {
+    id: nanoid(),
     name: 'Node Js',
     version: '8,12',
-    Experience: '',
+    experience: '',
   },
   {
+    id: nanoid(),
     name: 'ZEND',
     version: '1,2',
-    Experience: '',
+    experience: '',
   },
   {
+    id: nanoid(),
     name: 'Yii',
     version: '1,2',
-    Experience: '',
+    experience: '',
   },
   {
+    id: nanoid(),
     name: 'WORDPRESS',
     version: '5',
-    Experience: '',
+    experience: '',
   },
   {
+    id: nanoid(),
     name: 'HTML',
     version: '',
-    Experience: '',
+    experience: '',
   },
   {
+    id: nanoid(),
     name: 'PHP',
     version: '16',
-    Experience: '',
+    experience: '',
   },
 ];
 // Github start/fork buttons
