@@ -114,6 +114,81 @@ export const footerData = {
   ],
 };
 
+export const organizationData = [
+  {
+    name: 'Pepsico (Pepsi)',
+    duration: 'Nov 2019 to Till now',
+    description: '',
+  },
+  {
+    name: 'M3bi India Pvt Ltd',
+    duration: 'April 2018 to Oct 2019 ',
+    description: '',
+  },
+  {
+    name: 'Bridging health care',
+    duration: 'Nov 2016 to Aug 2017',
+    description: '',
+  },
+  {
+    name: 'Technotronics',
+    duration: 'NoMarch 2016 to OCT 2016v',
+    description: '',
+  },
+  {
+    name: 'A1-Technology',
+    duration: 'Jan 2014 to March 2016',
+    description: '',
+  },
+  {
+    name: 'Aryaan Solutions',
+    duration: 'Jan 2013 to Aug 2013',
+    description: '',
+  },
+];
+
+export const skills = [
+  {
+    name: 'React JS',
+    version: '16,17',
+    Experience: '',
+  },
+  {
+    name: 'Angular',
+    version: '4,6,8,9',
+    Experience: '',
+  },
+  {
+    name: 'Node Js',
+    version: '8,12',
+    Experience: '',
+  },
+  {
+    name: 'ZEND',
+    version: '1,2',
+    Experience: '',
+  },
+  {
+    name: 'Yii',
+    version: '1,2',
+    Experience: '',
+  },
+  {
+    name: 'WORDPRESS',
+    version: '5',
+    Experience: '',
+  },
+  {
+    name: 'HTML',
+    version: '',
+    Experience: '',
+  },
+  {
+    name: 'PHP',
+    version: '16',
+    Experience: '',
+  },
+];
 // Github start/fork buttons
 export const githubButtons = {
   isEnabled: true, // set to false to disable the GitHub stars/fork buttons
