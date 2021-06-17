@@ -24,7 +24,7 @@ export const aboutData = {
     '✓	Adept in end-to-end development of software products from requirement analysis to system study, designing, coding, testing, de-bugging, documentation, and implementation',
   paragraphThree:
     '✓	Deft at mapping the requirements, custom designing solutions & troubleshooting for complex software & application problems',
-  resume: '/Resume-Vikash_Verma_React.docx', // if no resume, the button will not show up
+  resume: '/Resume-Vikash_Verma.docx', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
