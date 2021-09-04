@@ -10,7 +10,6 @@ import {
   skillData,
 } from '../mock/data';
 import About from './About/About';
-import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import Hero from './Hero/Hero';
 import Organizations from './Organizations/Organizations';
@@ -43,7 +42,7 @@ function App() {
       <Projects />
       <Organizations />
       <Skills />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </PortfolioProvider>
   );

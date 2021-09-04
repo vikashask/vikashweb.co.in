@@ -11,7 +11,8 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Vikash Verma',
-  subtitle: 'I am Frontend developer',
+  subtitle: 'I am FullStack developer',
+  description: 'Lead Engineer at PepsiCO',
   cta: '',
 };
 
@@ -147,7 +148,7 @@ export const organizationData = [
   },
   {
     id: 6,
-    name: 'Aryaan Solutions',
+    name: 'Aryan Solutions',
     duration: 'Jan 2013 to Aug 2013',
     description: '',
   },
@@ -158,49 +159,67 @@ export const skillData = [
     id: nanoid(),
     name: 'React JS',
     version: '16,17',
-    experience: '',
+    experience: '3 year',
   },
   {
     id: nanoid(),
     name: 'Angular',
     version: '4,6,8,9',
-    experience: '',
+    experience: '2 year',
   },
   {
     id: nanoid(),
     name: 'Node Js',
     version: '8,12',
-    experience: '',
+    experience: '3 year',
+  },
+  {
+    id: nanoid(),
+    name: 'MySql',
+    version: '5',
+    experience: '4 year',
+  },
+  {
+    id: nanoid(),
+    name: 'AWS',
+    version: '',
+    experience: '2 year',
+  },
+  {
+    id: nanoid(),
+    name: 'AZURE',
+    version: '',
+    experience: '2 year',
   },
   {
     id: nanoid(),
     name: 'ZEND',
     version: '1,2',
-    experience: '',
+    experience: '2 year',
   },
   {
     id: nanoid(),
     name: 'Yii',
     version: '1,2',
-    experience: '',
+    experience: '1 year',
   },
   {
     id: nanoid(),
     name: 'WORDPRESS',
     version: '5',
-    experience: '',
+    experience: '1 year',
   },
   {
     id: nanoid(),
     name: 'HTML',
     version: '',
-    experience: '',
+    experience: '3 year',
   },
   {
     id: nanoid(),
     name: 'PHP',
     version: '16',
-    experience: '',
+    experience: '3 year',
   },
 ];
 // Github start/fork buttons
